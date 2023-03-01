@@ -72,9 +72,9 @@ export const useAuthStore = () => {
   }
 
   return {
+    errorMessage,
     status, 
     user, 
-    errorMessage,
     checkAuthToken,
     startLogin,
     startLogout,

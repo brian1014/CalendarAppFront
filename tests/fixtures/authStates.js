@@ -4,7 +4,7 @@ export const initialState = {
   errorMessage: undefined
 }
 
-export const authenticated = {
+export const authenticatedState = {
   status: 'authenticated',
   user: {
     uid: 'abc',
@@ -13,7 +13,7 @@ export const authenticated = {
   errorMessage: undefined
 }
 
-export const notAuthenticated = {
+export const notAuthenticatedState = {
   status: 'not-authenticated',
   user: {},
   errorMessage: undefined
